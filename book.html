@@ -1,0 +1,99 @@
+<html>
+<head>
+  <title>book form</title>
+  <meta charset="utf-8">
+<style>
+    body{background: #fff}
+      .form{padding: 20px;border-radius: 50px;width: 580px;margin:0 auto;}
+      input{width: 500px;padding: 5px;background:#f9f7f5 }
+      #submit{background:#625;width: 100px;font-weight: bold;font-size: 16px;color:#fff;border-radius: 10px;}
+      h1{color:#625;text-align: center;font-family: cursive;}
+      label{color:#625;}
+      p{background: #f3786f;padding: 5px;width: 250px;display: none;}
+    </style>
+
+
+</head>
+    <body>
+       <div class="form">
+       <h1>Book Now</h1>
+
+            <label>City</label><br>
+          <input id="city" type="text" onmouseout="validationofcity()"><br><br>
+          <p id="emptycity">The city is required</p>
+          <p id="notcity" >  invalid form</p>
+
+
+               <label>Pick-up date</label><br>
+          <input id="pickdate" type="date" required> <br><br>
+          <p class="emptydate">the date is required</p>
+
+
+               <label>Pick-up time</label><br>
+
+             <input class="time" type="time" required>
+          <p class="emptytime">the time is required</p>
+           <br><br>
+
+              <label> Drop-off date</label><br>
+          <input id="dropdate" type="date" required>
+         <p class="emptydate">the date is required</p><br><br>
+
+               <label>Drop-off time</label><br>
+
+          <input class="time" type="time" required>
+           <p class="emptytime">the timeis required</p>
+    <br><br>
+
+      <a href="booked.php"><input name="submit"id="submit" type="submit" value="Ok" ></a>  
+    </div>
+    <p id="demo"></p>
+</form>
+<script>
+    function validationofcity(){
+    var city;
+    city=document.getElementById("city").value;
+
+    if(city=="")
+    {
+  document.getElementById('emptycity').style.display="inline-block";
+  document.getElementById('city').style.border="1px red solid";
+  return false;
+
+}
+else if (&#65>city ||&#90< city <&#97 ||&#122<city){
+    document.getElementById('notcity').style.display="inline-block";
+    document.getElementById('city').style.border="1px red solid";
+  return false;
+}
+
+  else {
+    document.getElementById('emptypass').style.display="none";
+    document.getElementById('pass').style.border="1px green solid";
+  }
+
+}
+
+function validationoftime {
+    var time= document .get elementByClass('time').value;
+     if(city=="")
+    {
+  document.getElementById('emptytime').style.display="inline-block";
+  document.getElementById('time').style.border="1px red solid";
+  return false;
+
+
+}
+
+
+
+
+
+
+ document.getElementById("demo").innerHTML = text;
+
+</script>
+
+
+</body>
+</html>

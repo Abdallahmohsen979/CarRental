@@ -1,0 +1,10 @@
+# CarRental
+The project for Online Car Rental used in it (HTML, CSS, JAVASCRIPT, PHP, SQL)
+![home1](https://user-images.githubusercontent.com/96240368/175966458-2e3eff81-fc8d-43da-99a8-a285507bfa62.PNG)
+![home2](https://user-images.githubusercontent.com/96240368/175966486-37ae32bd-66cb-49f7-b0af-fc689f7baa36.PNG)
+![home3](https://user-images.githubusercontent.com/96240368/175966610-726524ea-33f5-440a-ac91-2d4ed085771e.PNG)
+![signin](https://user-images.githubusercontent.com/96240368/175966654-298ea0bf-e44d-4f45-9d58-0d20bcf4027e.PNG)
+![signup](https://user-images.githubusercontent.com/96240368/175966662-799efcdc-01b7-4eaf-a2b5-0d1fbc628227.PNG)
+![1](https://user-images.githubusercontent.com/96240368/175966990-2e56207c-ce80-4a1e-af1d-70106ac021c4.PNG)
+![cars](https://user-images.githubusercontent.com/96240368/175966666-8231718c-5f61-4df4-ae9d-84ab76f5941e.PNG)
+![book](https://user-images.githubusercontent.com/96240368/175966917-2de07aee-3a50-4adc-9454-b067362d68cb.PNG)
